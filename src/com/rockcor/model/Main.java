@@ -14,9 +14,9 @@ public class Main {
 				
 		Result[] myResults = new Result[3];
 		
-		m.createCase(100000, myResults, 0);
-		m.createCase(1000000, myResults, 1);
-		m.createCase(10000000, myResults, 2);
+		m.createCase(1000, myResults, 0);
+		m.createCase(10000, myResults, 1);
+		m.createCase(100000, myResults, 2);
 		
 		m.printInScreen(5, 8, myResults);
 
@@ -162,7 +162,7 @@ public class Main {
 		long start = System.currentTimeMillis();
 		
 		for(int i=0; i<myArray.length; i++) {
-			//System.out.print(" ");
+			System.out.print(" ");
 			
 			if(myArray[i] == searchedValue) {
 				break;
@@ -190,7 +190,7 @@ public class Main {
 		
 		while( startPosition <= endPosition ) {
 			
-			//System.out.print(" ");
+			System.out.print(" ");
 			
 			middlePosition = (endPosition + startPosition)/2;
 
